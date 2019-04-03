@@ -54,7 +54,8 @@ function init() {
     document.body.appendChild(renderer.domElement);
 
     stats = new Stats();
-    document.getElementById('container').appendChild(stats.dom);
+    // 隐藏状态窗口
+    // document.getElementById('container').appendChild(stats.dom);
 
     //
 
