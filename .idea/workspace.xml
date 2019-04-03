@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="723a07a2-b36e-40d9-a754-af6ea3f6ca1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AngularJS-Demo/static/images/sky.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularJS-Demo/static/images/clouds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularJS-Demo/static/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJS-Demo/static/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJS-Demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJS-Demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJS-Demo/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJS-Demo/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular.min.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,25 +27,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AngularJS-Demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="612">
+              <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/css/index.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="457">
+              <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -85,9 +89,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular.js" />
         <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular.min.js" />
-        <option value="$PROJECT_DIR$/AngularJS-Demo/index.html" />
-        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/init.js" />
         <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/bird.js" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/init.js" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-animate.min.js" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/static/css/index.css" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/index.html" />
       </list>
     </option>
   </component>
@@ -125,7 +131,7 @@
               <item name="mrsnail" type="462c0819:PsiDirectoryNode" />
               <item name="AngularJS-Demo" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mrsnail" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554173516724</updated>
       <workItem from="1554173518283" duration="13140000" />
-      <workItem from="1554257519288" duration="6664000" />
+      <workItem from="1554257519288" duration="11945000" />
     </task>
     <task id="LOCAL-00001" summary="updata">
       <created>1554173587408</created>
@@ -277,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554267745529</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updata">
+      <created>1554271379836</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1554271379836</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19804000" />
+    <option name="totallyTimeSpent" value="25085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -356,16 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/bird.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -375,8 +378,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="457">
+          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-animate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="1296" column="48" lean-forward="true" selection-start-line="1296" selection-start-column="48" selection-end-line="1296" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="46" column="58" lean-forward="true" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="58" />
         </state>
       </provider>
     </entry>
