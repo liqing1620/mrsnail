@@ -24,7 +24,7 @@ function init() {
     birds = [];
     boids = [];
 
-    for (var i = 0; i < 200; i++) {
+    for (var i = 0; i < 300; i++) {
         boid = boids[i] = new Boid();
         boid.position.x = Math.random() * 400 - 200;
         boid.position.y = Math.random() * 400 - 200;
@@ -48,7 +48,7 @@ function init() {
     geometry.vertices[1].uv = new THREE.Vector2(2,0);
     geometry.vertices[2].uv = new THREE.Vector2(2,2);
     geometry.vertices[3].uv = new THREE.Vector2(0,2);
-    var texture = THREE.ImageUtils.loadTexture("https://cdn.pixabay.com/photo/2016/12/21/18/34/clouds-1923545_960_720.png",null,function(t) {});
+    var texture = THREE.ImageUtils.loadTexture("./static/images/sky.jpg",null,function(t) {});
     var material = new THREE.MeshBasicMaterial({map:texture});
     var mesh = new THREE.Mesh( geometry,material );
     scene.add( mesh );
