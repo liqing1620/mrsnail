@@ -25,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AngularJS-Demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="352">
               <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
             </state>
           </provider>
@@ -200,7 +200,7 @@
       <updated>1554173516724</updated>
       <workItem from="1554173518283" duration="13140000" />
       <workItem from="1554257519288" duration="11945000" />
-      <workItem from="1554288420104" duration="179000" />
+      <workItem from="1554288420104" duration="485000" />
     </task>
     <task id="LOCAL-00001" summary="updata">
       <created>1554173587408</created>
@@ -286,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554271379836</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updata">
+      <created>1554288624136</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1554288624136</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25264000" />
+    <option name="totallyTimeSpent" value="25570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -378,7 +385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularJS-Demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="352">
           <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
         </state>
       </provider>
