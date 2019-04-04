@@ -1,13 +1,1 @@
-#container {
-    position: absolute;
-    width: 100%;
-}
 
-.motto {
-    width: 50rem;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 5rem;
-    color: black;
-    text-shadow: 1px 1px 5px #ffffff;
-    margin: 20rem auto;
-}
