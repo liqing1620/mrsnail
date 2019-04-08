@@ -15,8 +15,8 @@
     <!--标注版权-->
     <meta name="Copyright" Content="本页版权归Mrsnail所有。All Rights Reserved">
     <link rel="stylesheet" type="text/css" href="./static/css/index.css">
-    <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
-    <script src="https://cdn.static.runoob.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+    <script src="./static/js/angular/angular.min.js"></script>
+    <script src="./static/js/angular/angular-animate.min.js"></script>
     <script src="./static/js/three/three.min.js"></script>
     <script src="./static/js/three/Projector.js"></script>
     <script src="./static/js/three/stats.min.js"></script>
@@ -29,7 +29,7 @@
         overflow-x: hidden;
     }
 </style>
-<body id>
+<body>
 <!--[if lt IE 9]>
 <p class="chromeframe">
     <span>您使用的IE浏览器版本过低，本站不再支持，</span>
@@ -54,15 +54,18 @@
                 <hr>
                 <div class="q-navs">
                     <ul ng-repeat="nav in navs">
-                        <li ng-click="">{{nav.title}}</li>
+                        <li ng-click="toPatch($index,nav.url,nav.template)">{{nav.title}}</li>
                     </ul>
                 </div>
             </div>
             <div class="q-body-right">
                 <div class="motto">
-                    <h1 style="text-align: center">{{con[_index].title}}</h1>
-                    <hr>
-                    <p>{{con[_index].txt}}</p>
+                    <article>
+                        <h1 style="text-align: center">{{con[_index].title}}</h1>
+                        <hr>
+                        <p>{{con[_index].txt}}</p>
+                        <ng-view></ng-view>
+                    </article>
                 </div>
             </div>
 
@@ -80,6 +83,9 @@
         $scope.con = con;
         $scope._index = 0;
         // methods
+        $scope.toPatch = function (_ids,_url,_template) {
+            $scope._index = _ids;
+        };
     }])
 </script>
 <script src="./static/js/bird.js"></script>
