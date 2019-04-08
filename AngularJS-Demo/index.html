@@ -7,6 +7,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <!--默认使用极速内核-->
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <!--不产生浏览器缓存-->
     <meta name="renderer" content="webkit">
     <!--为搜索引擎提供关键词-->
     <meta name="Keywords" Content="mrsnail">
@@ -16,6 +18,7 @@
     <meta name="Copyright" Content="本页版权归Mrsnail所有。All Rights Reserved">
     <link rel="stylesheet" type="text/css" href="./static/css/index.css">
     <script src="./static/js/angular/angular.min.js"></script>
+    <script src="./static/js/angular/angular-route.min.js"></script>
     <script src="./static/js/angular/angular-animate.min.js"></script>
     <script src="./static/js/three/three.min.js"></script>
     <script src="./static/js/three/Projector.js"></script>
@@ -29,7 +32,7 @@
         overflow-x: hidden;
     }
 </style>
-<body>
+<body ng-app="myApp" ng-controller="myCtrl">
 <!--[if lt IE 9]>
 <p class="chromeframe">
     <span>您使用的IE浏览器版本过低，本站不再支持，</span>
@@ -39,7 +42,7 @@
     <span>等高级浏览器，将会得到更好的体验！</span>
 </p>
 <![endif]-->
-<div id="container" ng-app="myApp" ng-controller="myCtrl">
+<div id="container">
     <div class="q-body">
         <div class="q-body-main">
             <div class="q-body-left">
@@ -54,18 +57,18 @@
                 <hr>
                 <div class="q-navs">
                     <ul ng-repeat="nav in navs">
-                        <li ng-click="toPatch($index,nav.url,nav.template)">{{nav.title}}</li>
+                        <li ng-click="toPatch($index)"><a href="{{nav.url}}">{{nav.title}}</a></li>
                     </ul>
                 </div>
             </div>
             <div class="q-body-right">
                 <div class="motto">
                     <article>
-                        <h1 style="text-align: center">{{con[_index].title}}</h1>
+                        <h1 style="text-align: center">{{navs[_index].title}}</h1>
                         <hr>
-                        <p>{{con[_index].txt}}</p>
-                        <ng-view></ng-view>
+                        <div ng-view></div>
                     </article>
+
                 </div>
             </div>
 
@@ -75,18 +78,23 @@
 </body>
 <script src="./static/js/data.js"></script>
 <script type="text/javascript">
-    var myApp = angular.module("myApp", ['ngAnimate']);
+    var myApp = angular.module("myApp", ['ngRoute']);
     myApp.controller("myCtrl", ["$scope", function ($scope) {
         // data
         $scope.t_img = t_img;
         $scope.navs = navs;
-        $scope.con = con;
         $scope._index = 0;
         // methods
-        $scope.toPatch = function (_ids,_url,_template) {
+        $scope.toPatch = function (_ids) {
             $scope._index = _ids;
         };
     }])
+    myApp.config(['$routeProvider', function ($routeProvider) {
+        $routeProvider
+            .when('/', {templateUrl: './tpl/txt_one.html'})
+            .when('/two', {templateUrl: './tpl/txt_two.html'})
+            .otherwise({redirectTo: '/'});
+    }]);
 </script>
 <script src="./static/js/bird.js"></script>
 <script src="./static/js/init.js"></script>

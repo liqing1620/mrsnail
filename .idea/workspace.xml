@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="723a07a2-b36e-40d9-a754-af6ea3f6ca1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-animate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularJS-Demo/templates/index_one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AngularJS-Demo/templates/index_two.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularJS-Demo/tpl/txt_one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularJS-Demo/tpl/txt_two.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngularJS-Demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJS-Demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularJS-Demo/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJS-Demo/static/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AngularJS-Demo/static/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJS-Demo/static/js/data.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,61 +21,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AngularJS-Demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+            <state relative-caret-position="-485">
+              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#article#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/templates/index_one.html">
+        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-route.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="136">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/templates/index_two.html">
+        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/tpl/txt_two.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/images/sky.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/images/1168383.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/tpl/txt_one.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -103,10 +105,16 @@
         <option value="$PROJECT_DIR$/AngularJS-Demo/test.html" />
         <option value="$PROJECT_DIR$/AngularJS-Demo/templates/index_one.html" />
         <option value="$PROJECT_DIR$/AngularJS-Demo/templates/index_two.html" />
-        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/data.js" />
-        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular.min.js" />
-        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-animate.min.js" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-route.min.js" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/tpl/index_one.html" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/tpl/index_two.html" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/static/css/index.css" />
         <option value="$PROJECT_DIR$/AngularJS-Demo/index.html" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-animate.min.js" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular.min.js" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/tpl/txt_one.html" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/tpl/txt_two.html" />
+        <option value="$PROJECT_DIR$/AngularJS-Demo/static/js/data.js" />
       </list>
     </option>
   </component>
@@ -176,6 +184,12 @@
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="three" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mrsnail" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mrsnail" type="462c0819:PsiDirectoryNode" />
+              <item name="AngularJS-Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="tpl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,12 +239,20 @@
       <option name="presentableId" value="Default" />
       <updated>1554685656272</updated>
       <workItem from="1554685676076" duration="21000" />
-      <workItem from="1554685890773" duration="7954000" />
+      <workItem from="1554685890773" duration="21723000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1554694307880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554694307880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9305000" />
+    <option name="totallyTimeSpent" value="23074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -240,7 +262,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -268,6 +290,10 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -283,13 +309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -337,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/templates/index_two.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
@@ -351,24 +363,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/data.js">
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/tpl/txt_two.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/templates/index_one.html">
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="170">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-route.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="292" column="39" selection-start-line="292" selection-start-column="39" selection-end-line="292" selection-end-column="39" />
+        <state relative-caret-position="433">
+          <caret line="270" column="55" selection-start-line="270" selection-start-column="55" selection-end-line="270" selection-end-column="55" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -377,22 +399,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/angular/angular-animate.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="416">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/tpl/txt_one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/tpl/txt_two.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AngularJS-Demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+        <state relative-caret-position="-485">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#article#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularJS-Demo/static/js/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
