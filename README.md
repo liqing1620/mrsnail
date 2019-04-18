@@ -1,10 +1,10 @@
 # mrsnail
 
-主页地址：https://cloud.mrsnail.work/AngularJS-Demo/index.html#/
+ 主页地址：https://cloud.mrsnail.work/AngularJS-Demo/index.html#/
 
 一、AngularJS-Demo
 
-结合AngularJS写得一个小Demo，了解一下angularjs基本运用方式以及相关路由信息。
+ 结合AngularJS写得一个小Demo，了解一下angularjs基本运用方式以及相关路由信息。
 ~~~~  js
  myApp.controller("myCtrl", ["$scope", function ($scope) {
         // data
@@ -25,6 +25,7 @@
 ~~~~
 二、Quasar打包展示
 
+ 主页地址：https://cloud.mrsnail.work/spa-mat/index.html#/
 
  在zy-sketch项目里运行"build": "quasar build -t mat"指令即可得到如下打包文件。
 ~~~~
