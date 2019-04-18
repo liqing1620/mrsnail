@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="723a07a2-b36e-40d9-a754-af6ea3f6ca1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AngularJS-Demo/static/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/AngularJS-Demo/static/js/init.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -192,7 +191,7 @@
       <workItem from="1554878282145" duration="628000" />
       <workItem from="1555572154574" duration="2573000" />
       <workItem from="1555579034686" duration="574000" />
-      <workItem from="1555580059430" duration="746000" />
+      <workItem from="1555580059430" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1554694307880</created>
@@ -250,14 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555579154606</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1555580815815</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555580815815</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27774000" />
+    <option name="totallyTimeSpent" value="28020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17659463" />
