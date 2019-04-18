@@ -1,4 +1,7 @@
 # mrsnail
+
+主页地址：https://cloud.mrsnail.work/AngularJS-Demo/index.html#/
+
 一、AngularJS-Demo
 
 结合AngularJS写得一个小Demo，了解一下angularjs基本运用方式以及相关路由信息。
