@@ -43,7 +43,7 @@ function init() {
         scene.add(bird);
     }
     //天空背景
-    var geometry = new THREE.PlaneGeometry( SCREEN_WIDTH, SCREEN_HEIGHT, 1, 1 );
+    var geometry = new THREE.PlaneGeometry( 1920, 937, 1, 1 );
     geometry.vertices[0].uv = new THREE.Vector2(0,0);
     geometry.vertices[1].uv = new THREE.Vector2(2,0);
     geometry.vertices[2].uv = new THREE.Vector2(2,2);
